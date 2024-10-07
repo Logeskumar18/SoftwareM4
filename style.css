@@ -1,0 +1,19 @@
+.image1{
+    /* width: 104%;
+    height: 465px; */
+    background-image: url("./img/mbr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+@media screen and (min-width: 768px){
+    
+.movediv{
+    position: relative;
+    right: 100px;
+    top: 80px;
+}
+    
+}

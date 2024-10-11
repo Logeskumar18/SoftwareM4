@@ -30,6 +30,10 @@
     color: #6a757d;
     border: 1px solid #6a757d;
 }
+.bend{
+    border-right: 1px solid white;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -38,6 +42,19 @@
         position: relative;
         right: 100px;
         top: 80px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+
+    .bend{
+        border-right: 1px solid #202529;
     }
 
 }
